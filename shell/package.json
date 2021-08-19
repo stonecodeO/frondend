@@ -1,0 +1,25 @@
+{
+    "name": "redux-micro-frontend-shell",
+    "version": "0.0.0",
+    "license": "MIT",
+    "description": "c'est une implementation du sie(SPA) en micro frontend grâce à la fedération de module",
+    "scripts": {
+        "build": "webpack",
+        "start": "webpack serve --open"
+    },
+    "private": true,
+    "dependencies": {
+        "react": "^16.14.0",
+        "react-dom": "^16.14.0",
+        "redux-micro-frontend": "^1.1.1"
+    },
+    "devDependencies": {
+        "clean-webpack-plugin": "^3.0.0",
+        "css-loader": "^5.0.0",
+        "html-webpack-plugin": "^4.5.0",
+        "style-loader": "^2.0.0",
+        "webpack": "^5.1.3",
+        "webpack-cli": "^4.1.0",
+        "webpack-dev-server": "^3.11.2"
+    }
+}
